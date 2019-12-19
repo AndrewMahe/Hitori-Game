@@ -1,0 +1,127 @@
+body{
+    background: url("https://cdn.hipwallpaper.com/i/37/7/Dhq2Zn.jpg") 0 80% fixed;
+}
+@font-face {
+    font-family: font1;
+    src: url("eggrollexpand.ttf");
+}
+@font-face {
+    font-family: font2;
+    src: url("Korean_Calligraphy.ttf");
+}
+@font-face {
+    font-family: font3;
+    src: url("Real Chinese.otf");
+}
+#gametitle{
+    width: fit-content;
+    position: relative;
+    left: 0; right: 0;
+    margin: auto;
+    margin-top: 1%;
+    font-family: font1;
+    color: brown;
+    font-size: 75px;
+}
+#gametable{
+    width: 480px; height: 480px;
+    position: relative;
+    left: 0; right: 0;
+    margin: auto;
+    margin-top: 1%;
+    background: url("http://miam-images.m.i.pic.centerblog.net/95dd4cf7.jpg");
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#ruleboard{
+    width: 480px; height: 480px;
+    position: absolute;
+    left: 0; right: 0;
+    margin: auto;
+    margin-top: 1%;
+    background: url("http://miam-images.m.i.pic.centerblog.net/95dd4cf7.jpg");
+    border: 2px solid black;
+    z-index: 1;
+}
+td{
+    border: 2px solid black;
+    text-align: center;
+    font-family: font2;
+    font-size: 30px;
+    cursor: pointer;
+    background-image: unset;
+}
+/* BOUTON RULES */ 
+#rules {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    background: url("http://miam-images.m.i.pic.centerblog.net/95dd4cf7.jpg") 20% no-repeat;
+    border: 1px groove;
+    font-family: font3;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 3;
+}
+/* TEXTE DES RULES */ 
+.rulestext{
+    font-family: font2;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+/* TITRE DU RULES */ 
+#rulestitle{
+    font-family: font2;
+    text-align: center;
+    font-size: 40px;
+}
+#buttons{
+    text-align: center;
+}
+#newgame{
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    background: url("http://miam-images.m.i.pic.centerblog.net/95dd4cf7.jpg") 20% no-repeat;
+    border: 1px groove;
+    font-family: font3;
+    font-weight: bold;
+    font-size: 20px;
+}
+#checkgame{
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    background: url("http://miam-images.m.i.pic.centerblog.net/95dd4cf7.jpg") 20% no-repeat;
+    border: 1px groove;
+    font-family: font3;
+    font-weight: bold;
+    font-size: 30px;
+}
+#resetgame{
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    background: url("http://miam-images.m.i.pic.centerblog.net/95dd4cf7.jpg") 20% no-repeat;
+    border: 1px groove;
+    font-family: font3;
+    font-weight: bold;
+    font-size: 20px;
+}
+#win{
+    height: fit-content;
+    width: 300px;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    margin: auto;
+    background: url("http://miam-images.m.i.pic.centerblog.net/95dd4cf7.jpg") 20% no-repeat;
+    border: 2px solid black;
+    text-align: center;
+    font-family: font2;
+    font-size: 50px;
+    color: red;
+    z-index: 1;
+}
